@@ -2,7 +2,8 @@ pandas
 openpyxl
 streamlit
 numpy
-plotly.express
+plotly_express
 datetime
 plotly
 scikit-learn
+
