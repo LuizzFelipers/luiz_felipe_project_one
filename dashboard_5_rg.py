@@ -2,7 +2,8 @@ import pandas as pd
 import streamlit as st
 import plotly.express as px
 import numpy as np 
-
+import datetime
+import openpyxl
 
 def load_data(arquivo_excel):
 
@@ -188,4 +189,5 @@ with tab2:
 
             st.subheader("Tabela com os Maiores Preços Mensais Registrados")
             maiores_apostilamentos["Maiores Valores"] = formatar_para_reais(maiores_apostilamentos["Maiores Valores"])
+
             st.dataframe(maiores_apostilamentos)
