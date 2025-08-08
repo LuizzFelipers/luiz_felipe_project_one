@@ -1,9 +1,0 @@
-pandas
-openpyxl
-streamlit
-numpy
-plotly_express
-datetime
-plotly
-scikit-learn
-
