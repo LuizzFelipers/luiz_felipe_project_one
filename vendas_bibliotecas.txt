@@ -1,8 +1,0 @@
-pandas
-openpyxl
-streamlit
-numpy
-plotly
-plotly.express
-matplotlib
-datetime
