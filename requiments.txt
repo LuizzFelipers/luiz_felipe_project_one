@@ -1,6 +1,7 @@
-plotly.express
+plotly
 pandas
 numpy
 streamlit
 datetime
-plotly
+
+
