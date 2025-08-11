@@ -1,7 +1,8 @@
-plotly
+plotly==5.15.0
 pandas
 numpy
 streamlit
 datetime
+
 
 
