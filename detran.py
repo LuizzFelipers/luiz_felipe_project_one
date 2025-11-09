@@ -418,7 +418,7 @@ with tab2:
         st.markdown("------------------------")
 
         indice_maior = causa_acidente['Quantidade'].idxmax()
-        pull_list = [0.1 if i == indice_maior else 0 for i in range(len("causa_acidente"))]
+        pull_list = [0.1 if i == indice_maior else 0 for i in range(len(causa_acidente))]
 
         fig_causa_acidente = px.pie(
             causa_acidente,
@@ -437,3 +437,4 @@ with tab2:
         )
 
         st.plotly_chart(fig_causa_acidente,use_container_width=True)
+
