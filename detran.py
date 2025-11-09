@@ -3,6 +3,9 @@ import streamlit as st
 import plotly.express as px
 import json
 import requests
+import time
+
+time.sleep(2)
 
 
 st.set_page_config(layout="wide",
@@ -437,4 +440,5 @@ with tab2:
         )
 
         st.plotly_chart(fig_causa_acidente,use_container_width=True)
+
 
