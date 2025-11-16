@@ -1,6 +1,7 @@
 import pandas as pd
 import streamlit as st
 import plotly.express as px
+import openpyxl
 
 st.set_page_config(
     layout="wide",
@@ -312,4 +313,5 @@ st.markdown("""
 
 # Rodapé
 st.markdown("---")
+
 st.markdown("📊 **Dashboard desenvolvido para análise de risco de inadimplência**")
