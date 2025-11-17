@@ -293,6 +293,16 @@ with tab2:
         - **Monitoramento**: Acompanhar clientes com razão > 5%
         """)
 
+st.sidebar.header("🔮 Simulador de Risco")
+score_input = st.sidebar.slider("Score", 300, 850, 600)
+renda_input = st.sidebar.number_input("Renda Mensal", 1000, 50000, 5000)
+valor_plano_input = st.sidebar.number_input("Valor do Plano", 29, 199, 99)
+
+# Calcular risco
+razao_simulada = valor_plano_input / renda_input
+risco_predito = "Alto Risco" if score_input < 550 or razao_simulada > 0.05 else "Baixo Risco"
+st.sidebar.metric("Risco Predito", risco_predito)
+
 # CSS customizado
 st.markdown("""
 <style>
@@ -315,3 +325,4 @@ st.markdown("""
 st.markdown("---")
 
 st.markdown("📊 **Dashboard desenvolvido para análise de risco de inadimplência**")
+
