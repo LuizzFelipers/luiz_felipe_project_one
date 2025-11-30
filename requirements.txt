@@ -3,6 +3,8 @@ pandas
 plotly
 requests
 openpyxl
+yfinance
+numpy
 
 
 
