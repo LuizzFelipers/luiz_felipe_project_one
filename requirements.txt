@@ -5,6 +5,7 @@ requests
 openpyxl
 yfinance
 numpy
+scikit-learn==1.3.0
 
 
 
