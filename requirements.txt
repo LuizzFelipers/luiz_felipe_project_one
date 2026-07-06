@@ -1,8 +1,8 @@
-streamlit
-pandas
-plotly
+streamlit==1.37.0
+pandas==2.2.1
+plotly==5.19.0
 requests
-openpyxl
+openpyxl==3.1.5
 yfinance
 numpy
 scikit-learn
